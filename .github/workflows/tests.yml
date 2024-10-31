@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v4.4.3
         if: always()
         with:
-          name: Test Report
+          name: Chrome Test Report
           path: logs
 
   firefox:
@@ -88,5 +88,5 @@ jobs:
         uses: actions/upload-artifact@v4.4.3
         if: always()
         with:
-          name: Test Report
+          name: FireFox Test Report
           path: logs
